@@ -1,28 +1,11 @@
-== README
+DSCOVR DET
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The main purpose of this app is to:
 
-Things you may want to cover:
+	1) Allow users to search for restaurants
+	2) Allow users to obtain information on restaurants
+	3) Allow users to create a list of favorite restaurants
+	4) Allow users to create comments about restaurants
+	5) Allow users to vote on restaurants
+	6) Allow users to see live Twitter data from restaurants
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
