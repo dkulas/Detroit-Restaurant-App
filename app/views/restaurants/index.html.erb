@@ -1,0 +1,10 @@
+<% @restaurants.each do |rest| %>
+	<%= rest.name %><br>
+	<%= rest.address %><br>
+	<%= rest.city %><br>
+	<%= rest.state %><br>
+	<%= rest.zipcode %><br>
+	<%= rest.number %><br>
+	<%= rest.style %><br>
+	<%= link_to rest.site, rest.site %><br><br>
+<% end %>
