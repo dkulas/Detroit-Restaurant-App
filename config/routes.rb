@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "home#index"
+  root "restaurants#index"
 
   devise_for :users, :path => 'accounts'
 
@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   	resources :comments
   end
 
-  resources :restaurants
+  resources :restaurants, only: [:index, :show]
 end
