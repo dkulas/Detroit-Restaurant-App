@@ -1,0 +1,28 @@
+<h1>Your comments:</h1>
+
+<%= form_for([current_user, current_user.comments.build]) do |f| %>
+	<p>
+		<%= f.label :title %><br>
+		<%= f.text_field :title %>
+		<%= f.label :author %><br>
+		<%= f.text_field :author %>
+		<%= f.label :body %><br>
+		<%= f.text_area :body %>
+	</p>
+
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>	
+
+<ul>
+	<% @comments.each do |comment| %>
+	<li><%= comment.title %></li>
+	<li><%= comment.body %></li>
+	<% end %>
+</ul>
+
+
+
+
+
