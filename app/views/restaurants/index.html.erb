@@ -1,10 +1,12 @@
-<% @restaurants.each do |rest| %>
-	<%= rest.name %><br>
-	<%= rest.address %><br>
-	<%= rest.city %><br>
-	<%= rest.state %><br>
-	<%= rest.zipcode %><br>
-	<%= rest.number %><br>
-	<%= rest.style %><br>
-	<%= link_to rest.site, rest.site, :target => "_blank" %><br><br>
-<% end %>
+<div id="rest_list">
+	<% @restaurants.each do |rest| %><br><br><br>
+		<%= rest.name %><br>
+		<%= rest.address %><br>
+		<%= rest.city %><br>
+		<%= rest.state %><br>
+		<%= rest.zipcode %><br>
+		<%= rest.number %><br>
+		<%= rest.style %><br>
+		<%= link_to "Website", rest.site, :target => "_blank" %><br>
+	<% end %>
+</div>
