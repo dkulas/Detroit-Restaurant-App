@@ -21,6 +21,8 @@ nav ul li {
 }
 
 #rest_list {
+	width: 20%;
+	margin: 0 auto;
 	text-align: center;
 }
 
