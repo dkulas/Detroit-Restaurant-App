@@ -1,9 +1,11 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 html {
-	margin: 2.5%;
+	margin: 2.5% 2.5% 0 2.5%;
+	height: 100%;
 }
 
 body {
@@ -40,10 +42,20 @@ ul {
 	margin-top: -1.5%;
 }
 
-#mainh1 {
-	display: block;
+#mainh1, #hph1 {
+	text-align: center;
+	margin: 0 auto;
 }
 
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+footer p {
+	text-align: center;
+}
 
 
 
