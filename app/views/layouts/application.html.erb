@@ -9,9 +9,14 @@
   <meta name=“viewport” content=“width=device-width”>
 </head>
 <body>
-<h3 id="signout"><%= link_to 'Signout', destroy_user_session_path, :method => :delete %></h3>
 <h1 id="mainh1">Eat Detroit</h1>
 <header>
+	<% if current_user %>
+		<a href="#"> <%= current_user.name %> </a>
+		<%= link_to "Sign out", signout_path %>
+		<% else %>
+		<%= link_to "Sign in with Twitter", "/auth/twitter?force_login=true" %>
+	<% end %>
 	<nav>
 		<ul>
 			<li><a href="">Code</a></li>
