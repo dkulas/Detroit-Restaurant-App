@@ -12,8 +12,8 @@
 <h1 id="mainh1">Eat Detroit</h1>
 <header>
 	<% if current_user %>
-		<a href="#"> <%= current_user.name %> </a>
-		<%= link_to "Sign out", signout_path %>
+		signed in as: <strong>@<%= current_user.twitter_handle %></strong>
+		<%= link_to "| sign out", signout_path %>
 		<% else %>
 		<%= link_to "Sign in with Twitter", "/auth/twitter?force_login=true" %>
 	<% end %>
