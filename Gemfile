@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# ENV Protection
+gem 'figaro'
+# OmniAuth Twitter
 gem 'omniauth-twitter'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
