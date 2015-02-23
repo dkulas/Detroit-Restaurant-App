@@ -24,6 +24,10 @@ a {
 	text-decoration: none;
 }
 
+a:visited, a:hover, a:active {
+	color: blue;
+}
+
 #rest_list {
 	width: 20%;
 	margin: 0 auto;
