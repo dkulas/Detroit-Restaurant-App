@@ -6,17 +6,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link rel="stylesheet" type="text/css" href="./main.css">
+  <link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Nobile:700' rel='stylesheet' type='text/css'>
   <meta name=“viewport” content=“width=device-width”>
 </head>
 <body>
-<h1 id="mainh1">Detroit Restaurants</h1>
 <nav>
 		<ul>
-			<li><a href="">Code</a></li>
-			<li><a href="">Contact</a></li>
-			<li><a href="">About</a></li>
-			<li><%= link_to "Restaurants", "/restaurants" %></li>
-			<li><%= link_to "Home", root_path %></li>
+			<li><a href="">code</a></li>
+			<li><a href="">contact</a></li>
+			<li><a href="">about</a></li>
+			<li><%= link_to "restaurants", "/restaurants" %></li>
+			<li><%= link_to "home", root_path %></li>
 		</ul>
 	</nav>
 <header>
@@ -24,7 +25,7 @@
 		<strong>@<%= current_user.twitter_handle %></strong>
 		<%= link_to "| sign out", signout_path %>
 		<% else %>
-		<%= link_to "Sign in with Twitter", "/auth/twitter?force_login=true" %>
+		<%= link_to "twitter login", "/auth/twitter?force_login=true" %>
 	<% end %>
 </header>
 <%= yield %>

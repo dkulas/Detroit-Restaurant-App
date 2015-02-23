@@ -1,3 +1,4 @@
+<h1 id="mainh1">Detroit Restaurants</h1>
 <div id="rest_list">
 	<% @restaurants.each do |rest| %><br><br><br>
 		<strong><%= rest.name %></strong><br>
@@ -6,6 +7,6 @@
 		<%= rest.zipcode %><br>
 		<%= rest.number %><br>
 		<%= rest.style %><br>
-		<%= link_to "Website", rest.site, :target => "_blank" %>
+		<%= link_to "website", rest.site, :target => "_blank" %>
 	<% end %>
 </div>
