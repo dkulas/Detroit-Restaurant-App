@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-# ENV Protection
+# Allows for sorting on website
+gem 'ransack'
+# API key Protection
 gem 'figaro'
 # OmniAuth Twitter
 gem 'omniauth-twitter'
