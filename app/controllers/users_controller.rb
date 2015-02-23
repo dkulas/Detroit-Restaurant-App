@@ -1,31 +1,14 @@
 class UsersController < ApplicationController
-	before_action :authenticate_user!
-
+	
 	def index
-		
+		if current_user
+			@user = current_user
+		else
+    	redirect_to new_user_path, notice: "Please log in"
+  	end
 	end
 
-	def show
-		
-	end
-
-	def new
-		
-	end
-
-	def create
-		
-	end
-
-	def edit
-		
-	end
-
-	def update
-		
-	end
-
-	def destroy
-		
+	def home
+		render "home"
 	end
 end
