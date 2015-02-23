@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DscovrDET</title>
+  <title>Eat Detroit</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,15 +10,15 @@
 </head>
 <body>
 <h3 id="signout"><%= link_to 'Signout', destroy_user_session_path, :method => :delete %></h3>
-<h1 id="mainh1">DSCOVR DETROIT</h1>
+<h1 id="mainh1">Eat Detroit</h1>
 <header>
 	<nav>
 		<ul>
-			<a href=""><li>Home</li></a>
-			<a href=""><li>About</li></a>
-			<a href=""><li>Restaurants</li></a>
-			<a href=""><li>Contact</li></a>
-			<a href=""><li>Code</li></a>
+			<li><a href="">Code</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Restaurants</a></li>
+			<li><a href="">Home</a></li>
 		</ul>
 	</nav>
 </header>
