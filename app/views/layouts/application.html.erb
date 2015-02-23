@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DscovrApp</title>
+  <title>DscovrDET</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <meta name=“viewport” content=“width=device-width”>
 </head>
 <body>
-<h3><%= link_to 'Signout', destroy_user_session_path, :method => :delete %></h3>
-<h1>DSCOVR DETROIT</h1>
+<h3 id="signout"><%= link_to 'Signout', destroy_user_session_path, :method => :delete %></h3>
+<h1 id="mainh1">DSCOVR DETROIT</h1>
+<header>
+	<nav>
+		<ul>
+			<a href=""><li>Home</li></a>
+			<a href=""><li>About</li></a>
+			<a href=""><li>Restaurants</li></a>
+			<a href=""><li>Contact</li></a>
+			<a href=""><li>Code</li></a>
+		</ul>
+	</nav>
+</header>
 <%= yield %>
 
 </body>
