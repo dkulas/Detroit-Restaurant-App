@@ -6,8 +6,6 @@ class CreateRestaurants < ActiveRecord::Migration
       t.integer :zipcode
       t.string :number
       t.string :site
-      t.integer :vote_id
-      t.integer :comment_id
 
       t.timestamps null: false
     end
