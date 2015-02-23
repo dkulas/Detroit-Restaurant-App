@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "restaurants#index"
+  root "restaurants#home_page"
 
   resources :users do
   	resources :comments

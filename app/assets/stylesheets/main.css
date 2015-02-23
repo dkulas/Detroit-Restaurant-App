@@ -34,6 +34,14 @@ a:visited, a:hover, a:active {
 	text-align: center;
 }
 
+ul {
+	display: block;
+	margin-top: -1.5%;
+}
+
+#mainh1 {
+	display: block;
+}
 
 
 

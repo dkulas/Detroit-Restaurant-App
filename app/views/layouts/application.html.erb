@@ -10,14 +10,7 @@
 </head>
 <body>
 <h1 id="mainh1">Detroit Restaurants</h1>
-<header>
-	<% if current_user %>
-		signed in as: <strong>@<%= current_user.twitter_handle %></strong>
-		<%= link_to "| sign out", signout_path %>
-		<% else %>
-		<%= link_to "Sign in with Twitter", "/auth/twitter?force_login=true" %>
-	<% end %>
-	<nav>
+<nav>
 		<ul>
 			<li><a href="">Code</a></li>
 			<li><a href="">Contact</a></li>
@@ -26,6 +19,13 @@
 			<li><a href="">Home</a></li>
 		</ul>
 	</nav>
+<header>
+	<% if current_user %>
+		<strong>@<%= current_user.twitter_handle %></strong>
+		<%= link_to "| sign out", signout_path %>
+		<% else %>
+		<%= link_to "Sign in with Twitter", "/auth/twitter?force_login=true" %>
+	<% end %>
 </header>
 <%= yield %>
 

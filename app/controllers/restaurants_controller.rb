@@ -5,6 +5,10 @@ class RestaurantsController < ApplicationController
 		@restaurants = Restaurant.all
 	end
 
+	def home_page
+		render 'home_page'
+	end
+
 	def show
 		
 	end
