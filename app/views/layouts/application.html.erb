@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eat Detroit</title>
+  <title>Detroit Restaurants</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,7 +9,7 @@
   <meta name=“viewport” content=“width=device-width”>
 </head>
 <body>
-<h1 id="mainh1">Eat Detroit</h1>
+<h1 id="mainh1">Detroit Restaurants</h1>
 <header>
 	<% if current_user %>
 		signed in as: <strong>@<%= current_user.twitter_handle %></strong>

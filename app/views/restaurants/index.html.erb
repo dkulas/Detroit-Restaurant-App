@@ -1,11 +1,11 @@
 <div id="rest_list">
 	<% @restaurants.each do |rest| %><br><br><br>
-		<%= rest.name %><br>
+		<strong><%= rest.name %></strong><br>
 		<%= rest.address %><br>
 		<%= rest.city %>, <%= rest.state %><br>
 		<%= rest.zipcode %><br>
 		<%= rest.number %><br>
 		<%= rest.style %><br>
-		<%= link_to "Website", rest.site, :target => "_blank" %><br>
+		<%= link_to "Website", rest.site, :target => "_blank" %>
 	<% end %>
 </div>
