@@ -1,4 +1,4 @@
-<br><br><br><br><h2 id="mainh1">Detroit Restaurants & Bars</h2>
+<br><br><br><br><h2 id="mainh1">Detroit Restaurants & Bars</h2><br>
 
 <%= search_form_for @q do |f| %>
 <h6>(type in the name of a restaurant or bar to view info)</h6>
@@ -6,7 +6,7 @@
 	<%= f.search_field :name_cont  %>
 	<%#= f.label :style_cont, "food style" %>
 	<%#= f.search_field :style_cont  %>
-	<%= f.submit %>
+	<%= f.submit "search" %>
 	<%= link_to "reset", "/restaurants" %>
 <% end %>
 
