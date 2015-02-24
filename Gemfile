@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Allows for voting on models
+gem 'acts_as_votable', '~> 0.10.0'
 # Allows for sorting on website
 gem 'ransack'
 # API key Protection
