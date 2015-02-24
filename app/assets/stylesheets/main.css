@@ -91,7 +91,9 @@ footer {
 	padding: 0;
 }
 
-
+#comment_list_body {
+	border-bottom: 2px solid black;
+}
 
 
 
