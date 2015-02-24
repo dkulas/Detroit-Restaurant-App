@@ -61,5 +61,13 @@ footer p {
 	text-align: center;
 }
 
+#comments_container {
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+}
 
-
+#comments_container, ul, li {
+	list-style-type: none;
+	text-align: center;
+}

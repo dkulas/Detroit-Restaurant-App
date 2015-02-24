@@ -19,8 +19,8 @@ class CommentsController < ApplicationController
 
 	def create
     @comment = Comment.new(comment_params)
-    @user = current_user
-    @comment.user_name = @user.name
+    # @user = current_user
+    # @comment.user_name = @user.name
     if @comment.save
       redirect_to comments_path
     else
@@ -45,7 +45,7 @@ class CommentsController < ApplicationController
 
 	private
 	def comment_params
-		params.require(:user).permit(:title, :body, :author)
+		params.require(:comment).permit(:title, :body, :author)
 	end
 
 end
