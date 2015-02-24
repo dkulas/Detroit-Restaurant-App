@@ -1,25 +1,35 @@
 <br><br><br><h2>comments: by the people, for the people</h2>	
 
 <div id="comment_form">
+<ul>
 <%= form_for @comments do |f| %>
 
 <br><br><br>
+<li>
 	<h3>
-		<%= f.label :title %><br><br>
-		<%= f.text_field :title, placeholder: "rest/bar name" %><br><br>
+		<%= f.label :title %><br>
+		<%= f.text_field :title, placeholder: "rest/bar name" %>
 	</h3>
+</li>
+<li>
 	<h3>
-		<%= f.label :author %><br><br>
-		<%= f.text_field :author, placeholder: "name/twitter handle" %><br><br>
+		<%= f.label :author %><br>
+		<%= f.text_field :author, placeholder: "name/twitter handle" %>
 	</h3>
+</li>
+<li>
 	<h3>
-		<%= f.label :body %><br><br>
-		<%= f.text_area :body %><br><br>
+		<%= f.label :body %><br>
+		<%= f.text_area :body %>
 	</h3>
+</li>
+<li>
 	<h4>
 		<%= f.submit "add comment" %>
 	</h4>
+</li>
 <% end %>
+</ul>
 </div>
 
 <div id="comments_container">

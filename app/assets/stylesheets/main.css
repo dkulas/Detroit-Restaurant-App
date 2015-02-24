@@ -65,7 +65,7 @@ footer p {
 	width: 25%;
 	display: block;
 	margin: 0 auto;
-	margin-top: -15%;
+	margin-top: 5%;
 }
 
 #comments_container, ul, li {
@@ -73,7 +73,7 @@ footer p {
 	text-align: center;
 }
 
-#comment_form {
+#comment_form ul li {
 	display: inline-block;
 }
 
