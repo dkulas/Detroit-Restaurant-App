@@ -42,9 +42,13 @@ ul {
 	margin-top: -1.5%;
 }
 
-#mainh1, #hph1 {
+#hph1 {
 	text-align: center;
 	margin: 0 auto;
+}
+
+#mainh1 {
+	text-align: left;
 }
 
 footer {

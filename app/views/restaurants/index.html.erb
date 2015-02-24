@@ -1,4 +1,11 @@
 <br><br><br><br><h1 id="mainh1">Detroit Restaurants</h1>
+
+<%= search_form_for @q do |f| %>
+	<%= f.label :name_cont, "restaurant name" %>
+	<%= f.search_field :name_cont  %>
+	<%= f.submit %>
+<% end %>
+
 <div id="rest_list">
 	<% @restaurants.each do |rest| %><br><br><br>
 		<strong><%= rest.name %></strong><br>

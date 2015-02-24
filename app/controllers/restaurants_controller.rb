@@ -1,8 +1,9 @@
 class RestaurantsController < ApplicationController
-	# before_action :authenticate_user!
 
 	def index
-		@restaurants = Restaurant.all
+		@q = Restaurant.ransack(params[:q])
+		@restaurants = @q.result(distinct: true)
+		# @restaurants = Restaurant.all
 	end
 
 	def home_page
