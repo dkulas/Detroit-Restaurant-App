@@ -1,23 +1,33 @@
-<h1>Your comments:</h1>
+<br><br><br><h2>comments: by the people, for the people</h2>	
 
-<%= form_for([current_user, current_user.comments.build]) do |f| %>
-	<p>
+<%= form_for @comments do |f| %>
+
+<br><br><br><div class="new-comment-container">
+	<h4>
 		<%= f.label :title %><br>
 		<%= f.text_field :title %>
+	</h4>
+
+	<h4>
 		<%= f.label :author %><br>
 		<%= f.text_field :author %>
+	</h4>
+
+	<h4>
 		<%= f.label :body %><br>
 		<%= f.text_area :body %>
-	</p>
+	</h4>
 
-	<p>
-		<%= f.submit %>
-	</p>
-<% end %>	
+	<h4>
+		<%= f.submit "add comment" %>
+	</h4>
+<% end %>
+</div>
 
 <ul>
-	<% @comments.each do |comment| %>
+	<% @comments_all.each do |comment| %>
 	<li><%= comment.title %></li>
+	<li><%= comment.author %></li>
 	<li><%= comment.body %></li>
 	<% end %>
 </ul>

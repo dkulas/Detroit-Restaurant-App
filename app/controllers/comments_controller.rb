@@ -1,12 +1,12 @@
 class CommentsController < ApplicationController
-	# before_action :authenticate_user!
 
 	def index
-		@comments = current_user.comments
+		@comments = Comment.new
+		@comments_all = Comment.all
 	end
 
 	def show
-		@comment = Comment.find(params[:id])
+		
 	end
 
 	def new
@@ -18,13 +18,15 @@ class CommentsController < ApplicationController
 	end
 
 	def create
-		@comment = current_user.comments.new(comment_params)
-		if @comment.save
-			redirect_to @comment
-		else
-			render 'new'
-		end
-	end
+    @comment = Comment.new(comment_params)
+    @user = current_user
+    @comment.user_name = @user.name
+    if @comment.save
+      redirect_to comments_path
+    else
+    	render 'new'
+    end
+  end
 
 	def update
 		@comment = Comment.find(params[:id])
