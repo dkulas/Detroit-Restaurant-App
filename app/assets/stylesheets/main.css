@@ -91,10 +91,10 @@ footer {
 	padding: 0;
 }
 
-#comment_list_body {
-	border-bottom: 2px solid black;
+#comments_container_top {
+	border-top: 2px solid black;
+	padding-top: .5em;
 }
-
 
 
 

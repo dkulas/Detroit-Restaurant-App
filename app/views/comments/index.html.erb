@@ -42,12 +42,14 @@
 <div id="comments_container">
 	<ul>
 		<% @comments_all.each do |comment| %>
-		<li><h3>rest/bar name</h3></li>
+		<li id="comments_container_top"><h3>rest/bar name</h3></li>
 		<li><%= comment.title %></li><br>
 		<li><h3>author</h3></li>
 		<li><%= comment.author %></li><br>
 		<li><h3>comment</h3></li>
-		<li id="comment_list_body"><%= comment.body %></li><br><br><br>
+		<li><%= comment.body %></li><br>
+		<li><h3>date</h3></li>
+		<li><%= comment.created_at %></li><br><br>
 		<% end %>
 	</ul>
 </div>
