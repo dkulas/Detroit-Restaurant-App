@@ -1,4 +1,11 @@
-<br><br><br><h2>comments: <br><h3>by the people, for the people</h3></h2>	
+<br><br><br><h2>comments: <br><h3>by the people, for the people</h3></h2><br>
+
+<%= search_form_for @q do |f| %>
+	<%= f.label :title_cont, "rest/bar name" %>
+	<%= f.search_field :title_cont %>
+	<%= f.submit %>
+	<%= link_to "reset", "/comments" %>
+<% end %>
 
 <div id="comment_form">
 <ul>

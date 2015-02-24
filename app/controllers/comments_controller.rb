@@ -1,8 +1,10 @@
 class CommentsController < ApplicationController
 
 	def index
+		@q = Comment.ransack(params[:q])
+		@comments_all = @q.result(distinct: true)
 		@comments = Comment.new
-		@comments_all = Comment.all
+		# @comments_all = Comment.all
 	end
 
 	def show
