@@ -3,6 +3,8 @@
 <%= search_form_for @q do |f| %>
 	<%= f.label :name_cont, "rest/bar name" %>
 	<%= f.search_field :name_cont  %>
+	<%#= f.label :style_cont, "food style" %>
+	<%#= f.search_field :style_cont  %>
 	<%= f.submit %>
 	<%= link_to "reset", "/restaurants" %>
 <% end %>
