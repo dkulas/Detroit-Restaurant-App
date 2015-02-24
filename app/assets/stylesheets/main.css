@@ -55,11 +55,14 @@ footer {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
+	left: 42.5%;
+	right: 40%;
+	display: none;
 }
 
-footer p {
+/*footer p {
 	text-align: center;
-}
+}*/
 
 #comments_container {
 	width: 25%;
