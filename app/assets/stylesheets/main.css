@@ -94,14 +94,17 @@ footer {
 	padding: 0;
 }
 
-#comments_container_top {
+#comments_bar_name {
 	border-top: 2px solid black;
 	padding-top: .5em;
+	color: #01135F;
 }
 
 #commentsh2, #commentsh4 {
 	font-family: 'Fredericka The Great', sans-serif
 }
+
+
 
 
 
