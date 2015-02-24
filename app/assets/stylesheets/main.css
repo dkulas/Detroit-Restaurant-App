@@ -46,10 +46,12 @@ ul {
 #hph1 {
 	text-align: center;
 	margin: 0 auto;
+	font-family: 'Fredericka The Great', sans-serif
 }
 
 #mainh1 {
 	text-align: left;
+	font-family: 'Fredericka The Great', sans-serif
 }
 
 footer {
@@ -97,6 +99,9 @@ footer {
 	padding-top: .5em;
 }
 
+#commentsh2, #commentsh4 {
+	font-family: 'Fredericka The Great', sans-serif
+}
 
 
 
