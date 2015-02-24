@@ -65,9 +65,17 @@ footer p {
 	width: 25%;
 	display: block;
 	margin: 0 auto;
+	margin-top: -20%;
 }
 
 #comments_container, ul, li {
 	list-style-type: none;
 	text-align: center;
 }
+
+#comment_form {
+	display: inline-block;
+}
+
+
+
