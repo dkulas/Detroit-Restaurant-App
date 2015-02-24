@@ -3,7 +3,7 @@
 <%= search_form_for @q do |f| %>
 	<%= f.label :title_cont, "rest/bar name" %>
 	<%= f.search_field :title_cont %>
-	<%= f.submit %>
+	<%= f.submit "search" %>
 	<%= link_to "reset", "/comments" %>
 <% end %>
 
@@ -14,19 +14,19 @@
 <br><br><br>
 <li>
 	<h3>
-		<%= f.label :title %><br>
-		<%= f.text_field :title, placeholder: "rest/bar name" %>
+		<%= f.label :title, "rest/bar name" %><br>
+		<%= f.text_field :title %>
 	</h3>
 </li>
 <li>
 	<h3>
-		<%= f.label :author %><br>
+		<%= f.label :author, "author" %><br>
 		<%= f.text_field :author, placeholder: "name/twitter handle" %>
 	</h3>
 </li>
 <br><br><li>
 	<h3>
-		<%= f.label :body %><br>
+		<%= f.label :body, "body" %><br>
 		<%= f.text_area :body %>
 	</h3>
 </li>
