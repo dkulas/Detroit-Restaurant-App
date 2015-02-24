@@ -8,35 +8,39 @@
 <% end %>
 
 <div id="comment_form">
-<ul>
-<%= form_for @comments do |f| %>
+<% if current_user %>
+	<ul>
+	<%= form_for @comments do |f| %>
 
-<br><br><br>
-<li>
-	<h3>
-		<%= f.label :title, "rest/bar name" %><br>
-		<%= f.text_field :title %>
-	</h3>
-</li>
-<li>
-	<h3>
-		<%= f.label :author, "author" %><br>
-		<%= f.text_field :author, placeholder: "name/twitter handle" %>
-	</h3>
-</li>
-<br><br><li>
-	<h3>
-		<%= f.label :body, "body" %><br>
-		<%= f.text_area :body %>
-	</h3>
-</li>
-<br><br><li>
-	<h4>
-		<%= f.submit "add comment" %>
-	</h4>
-</li>
+	<br><br><br>
+	<li>
+		<h3>
+			<%= f.label :title, "rest/bar name" %><br>
+			<%= f.text_field :title %>
+		</h3>
+	</li>
+	<li>
+		<h3>
+			<%= f.label :author, "author" %><br>
+			<%= f.text_field :author, placeholder: "name/twitter handle" %>
+		</h3>
+	</li>
+	<br><br><li>
+		<h3>
+			<%= f.label :body, "body" %><br>
+			<%= f.text_area :body %>
+		</h3>
+	</li>
+	<br><br><li>
+		<h4>
+			<%= f.submit "add comment" %>
+		</h4>
+	</li>
+	<% end %>
+<% else %>
+	<br><%= link_to "SIGN IN WITH TWITTER TO COMMENT", "/auth/twitter" %>
 <% end %>
-</ul>
+	</ul>
 </div>
 
 <div id="comments_container">
