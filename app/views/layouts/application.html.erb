@@ -13,14 +13,14 @@
 </head>
 <body>
 <nav>
-		<ul>
-			<li><a href="">code</a></li>
-			<li><a href="">about</a></li>
-			<li><%= link_to "comments", "/comments" %></li>
-			<li><%= link_to "the list", "/restaurants" %></li>
-			<li><%= link_to "home", root_path %></li>
-		</ul>
-	</nav>
+	<ul>
+		<li><a href="">code</a></li>
+		<li><a href="">about</a></li>
+		<li><%= link_to "comments", "/comments" %></li>
+		<li><%= link_to "the list", "/restaurants" %></li>
+		<li><%= link_to "home", root_path %></li>
+	</ul>
+</nav>
 <header>
 	<% if current_user %>
 		<strong>@<%= current_user.twitter_handle %></strong>
