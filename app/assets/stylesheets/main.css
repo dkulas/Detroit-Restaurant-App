@@ -66,10 +66,10 @@ footer {
 }
 
 #comments_container {
-	width: 25%;
+	width: 40%;
 	display: block;
 	margin: 0 auto;
-	margin-top: 5%;
+	margin-top: 2.5%;
 }
 
 #comments_container, ul, li {
