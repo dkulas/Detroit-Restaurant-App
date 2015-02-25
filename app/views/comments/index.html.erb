@@ -1,5 +1,5 @@
 <br><br><br><h2 id="commentsh2">dr&b comments: <br><h4 id="commentsh4">by the people, for the people</h4></h2><br>
-<h6>(type in the name of a restaurant or bar to view their comments)</h6>
+<!-- <h6>(type in the name of a restaurant or bar to view their comments)</h6> -->
 <%= search_form_for @q do |f| %>
 	<%= f.label :title_cont, "rest/bar name" %>
 	<%= f.search_field :title_cont %>
@@ -39,6 +39,7 @@
 	<% end %>
 <% else %>
 	<br><%= link_to "SIGN IN WITH TWITTER TO COMMENT", "/auth/twitter" %>
+	<h6>(you can still filter comments w/out signing in)</h6>
 <% end %>
 	</ul>
 </div>
