@@ -63,10 +63,6 @@ footer {
 	display: none;
 }
 
-/*footer p {
-	text-align: center;
-}*/
-
 #comments_container {
 	width: 25%;
 	display: block;
@@ -108,12 +104,9 @@ footer {
 	margin: 2.5% 5% 2.5% 5%;
 }
 
-#comment_form {
-	border: 1px solid black;
+body nav ul li {
+	font-size: .75em;
 }
-
-
-
 
 
 
