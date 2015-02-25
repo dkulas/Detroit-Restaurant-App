@@ -24,7 +24,7 @@
 		<li id="login_link">
 			<% if current_user %>
 				<strong>@<%= current_user.twitter_handle %></strong>
-				<%= link_to " sign out |", signout_path %>
+				<%= link_to "sign out", signout_path %>
 			<% else %>
 				<%= link_to "login", "/auth/twitter?force_login=true" %>
 			<% end %>

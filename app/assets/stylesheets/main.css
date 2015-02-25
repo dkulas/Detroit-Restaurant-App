@@ -43,7 +43,7 @@ ul {
 	margin-top: -1.5%;
 }
 
-#hph1, #hph3, #abouth1 {
+#hph1, #hph3, #abouth1, #codeh1 {
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Fredericka The Great', sans-serif
@@ -106,7 +106,22 @@ footer {
 
 body nav ul li {
 	font-size: .75em;
+	border: 1px solid #BCBCBD;
 }
+
+a:hover {
+	color: red;
+}
+
+#code_page_container {
+	width: 12em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
 
 
 
