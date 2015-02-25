@@ -43,7 +43,7 @@ ul {
 	margin-top: -1.5%;
 }
 
-#hph1, #hph3 {
+#hph1, #hph3, #abouth1 {
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Fredericka The Great', sans-serif
@@ -103,6 +103,14 @@ footer {
 #commentsh2, #commentsh4 {
 	font-family: 'Fredericka The Great', sans-serif
 }
+
+#about_container {
+	margin: 2.5% 5% 2.5% 5%;
+}
+
+
+
+
 
 
 

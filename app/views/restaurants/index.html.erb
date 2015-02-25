@@ -4,8 +4,10 @@
 <h6>(type in the name of a restaurant or bar to view info)</h6>
 	<%= f.label :name_cont, "rest/bar name" %>
 	<%= f.search_field :name_cont  %>
-	<%#= f.label :style_cont, "food style" %>
-	<%#= f.search_field :style_cont  %>
+	<%= f.submit "search" %>
+	<%= link_to "reset", "/restaurants" %><br>
+	<%= f.label :style_cont, "rest/bar style" %>
+	<%= f.search_field :style_cont  %>
 	<%= f.submit "search" %>
 	<%= link_to "reset", "/restaurants" %>
 <% end %>
