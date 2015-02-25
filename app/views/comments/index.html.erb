@@ -48,13 +48,13 @@
 <div id="comments_container">
 	<ul>
 		<% @comments_all.each do |comment| %>
-		<li id="comments_bar_name"><h3>rest/bar name:</h3></li>
+		<li id="comments_bar_name"><strong>rest/bar name:</strong></li>
 		<li><%= comment.title %></li><br>
-		<li><h3>author:</h3></li>
+		<li><strong>author:</strong></li>
 		<li><%= comment.author %></li><br>
-		<li><h3>comment:</h3></li>
+		<li><strong>comment:</strong></li>
 		<li><%= comment.body %></li><br>
-		<li><h3>date:</h3></li>
+		<li><strong>date:</strong></li>
 		<li><%= comment.created_at %></li><br>
 		<% end %>
 	</ul>
