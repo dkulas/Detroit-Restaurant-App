@@ -4,6 +4,10 @@ class RestaurantsController < ApplicationController
 		@q = Restaurant.ransack(params[:q])
 		@restaurants = @q.result(distinct: true)
 		# @restaurants = Restaurant.all
+		respond_to do |format|
+			format.html
+			format.json { render json: @restaurants }
+		end
 	end
 
 	def home_page
