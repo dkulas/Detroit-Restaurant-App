@@ -45,7 +45,7 @@ ul {
 	margin-top: -1.5%;
 }
 
-#hph1, #hph3, #abouth1, #codeh1 {
+#hph1, #hph3, #abouth1, #codeh1, #the_worksh1 {
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Fredericka The Great', sans-serif
@@ -103,7 +103,7 @@ footer {
 }
 
 #about_container {
-	margin: 2.5% 5% 2.5% 5%;
+	margin: 2.5% 10% 2.5% 10%;
 }
 
 body nav ul li {
