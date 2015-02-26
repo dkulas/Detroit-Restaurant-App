@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor'
 # Allows for voting on models
 gem 'acts_as_votable', '~> 0.10.0'
 # Allows for sorting on website
