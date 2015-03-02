@@ -1,4 +1,8 @@
-DSCOVR DET
+Detroit Restaurants and Bars
+
+link to deployed web-app:
+
+https://cryptic-chamber-1899.herokuapp.com/
 
 The main purpose of this app is to:
 
