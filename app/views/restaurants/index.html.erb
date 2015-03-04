@@ -12,7 +12,7 @@
 	<%= link_to "reset", "/restaurants" %>
 <% end %>
 
-<div id="rest_list">
+<br><br><div id="rest_list">
 	<% @restaurants.each do |rest| %><br><br><br>
 		<strong><%= rest.name %></strong><br>
 		<%= rest.address %><br>

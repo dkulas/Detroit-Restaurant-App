@@ -38,9 +38,14 @@ a:visited, a:hover, a:active {
 }
 
 #rest_list {
-	width: 30%;
+	/*height: 100%;*/
+	width: 80%;
+	-webkit-column-count: 2;
+  	-moz-column-count: 2;
+         column-count: 2;
 	margin: 0 auto;
 	text-align: center;
+	display: center;
 }
 
 ul {
