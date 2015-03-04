@@ -75,9 +75,13 @@ footer {
 
 #comments_container {
 	width: 40%;
-	display: block;
 	margin: 0 auto;
 	margin-top: 2.5%;
+	text-align: center;
+	display: center;
+/*	-webkit-column-count: 2;
+  	-moz-column-count: 2;
+         column-count: 2;*/
 }
 
 #comments_container, ul, li {
