@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# OAuth for FB
+gem 'omniauth-facebook'
+# Allows for CSS to render
 gem 'rails_12factor'
 # Allows for voting on models
 gem 'acts_as_votable', '~> 0.10.0'
