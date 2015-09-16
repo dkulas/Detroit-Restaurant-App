@@ -109,26 +109,6 @@ ul {
 	margin-bottom: 20px;
 }
 
-#hph1 {
-	width: 335px;
-	border-bottom: 2px solid black;
-}
-
-#the-list-page-h1 {
-	width: 238px;
-	border-bottom: 2px solid black;
-}
-
-#the-comments-page-h1 {
-	width: 184px;
-	border-bottom: 2px solid black;
-}
-
-#abouth1 {
-	width: 123px;
-	border-bottom: 2px solid black;
-}
-
 #mainh1 {
 	text-align: left;
 }
@@ -187,4 +167,8 @@ a:hover {
 
 div#rest_list ul li:nth-child(1) {
 	font-weight: bolder;
+}
+
+.reset-search {
+	font-size: .85em;
 }
