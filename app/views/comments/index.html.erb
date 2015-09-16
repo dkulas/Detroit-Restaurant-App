@@ -1,34 +1,29 @@
-<br><br><br><h2 id="commentsh2">dr&b comments: <br><h4 id="commentsh4">by the people, for the people</h4></h2><br>
-<!-- <h6>(type in the name of a restaurant or bar to view their comments)</h6> -->
+<br><br><br>
+<h1 id="the-comments-page-h1">the Comments</h1>
 
 <%= search_form_for @q do |f| %>
-	<%= f.label :title_cont, "rest/bar name" %>
-	<%= f.search_field :title_cont %>
+	<%= f.search_field :title_cont, :placeholder => "establishment name" %>
 	<%= f.submit "search" %>
 	<%= link_to "reset", "/comments" %>
 <% end %>
 
 <div id="comment_form">
-<% if current_user %>
 	<ul>
 	<%= form_for @comments do |f| %>
 
 	<br><br><br>
 	<li>
 		<h3>
-			<%= f.label :title, "rest/bar name" %><br>
-			<%= f.text_field :title %>
+			<%= f.text_field :title, placeholder: "establishment name" %>
 		</h3>
 	</li>
 	<li>
 		<h3>
-			<%= f.label :author, "author" %><br>
 			<%= f.text_field :author, placeholder: "name/twitter handle" %>
 		</h3>
 	</li>
 	<br><br><li>
 		<h3>
-			<%= f.label :body, "body" %><br>
 			<%= f.text_area :body %>
 		</h3>
 	</li>
@@ -37,24 +32,19 @@
 			<%= f.submit "add comment" %>
 		</h4><br>
 	</li>
-	<% end %>
-<% else %>
-	<br><%= link_to "SIGN IN WITH TWITTER TO COMMENT", "/auth/twitter" %>
-	<h6>(you can still filter comments w/out signing in)</h6>
 <% end %>
 	</ul>
 </div>
 
-<br><br><div id="comments_container">
+<br><div id="comments_container">
 	<ul>
 		<% @comments_all.each do |comment| %>
-		<li id="comments_bar_name"><strong>establishment:</strong></li>
-		<li><%= comment.title %></li><br>
-		<li><strong>author:</strong></li>
+		<li id="comments_bar_name" style="font-weight: bolder;"><%= comment.title %></li><br>
+		<li>author:</li>
 		<li><%= comment.author %></li><br>
-		<li><strong>comment:</strong></li>
+		<li>comment:</li>
 		<li><%= comment.body %></li><br>
-		<li><strong>date:</strong></li>
+		<li>date:</li>
 		<li><%= comment.created_at %></li><br>
 		<% end %>
 	</ul>

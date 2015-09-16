@@ -1,5 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*===================================*/
 
 * {
 	box-sizing: border-box;
@@ -7,19 +57,14 @@
 }
 
 html {
-	margin: 2.5% 2.5% 0 2.5%;
 	height: 100%;
 }
 
 body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
+	margin: 40px;
  	padding: 0;
  	font-family: sans-serif;
- 	/*background-color: #fff;*/
- 	background-color: #ffffff;
-	background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+ 	background-color: #fff;
 }
 
 nav ul li {
@@ -53,15 +98,39 @@ ul {
 	margin-top: -1.5%;
 }
 
-#hph1, #hph3, #abouth1, #codeh1, #the_worksh1 {
+#hph3 {
 	text-align: center;
 	margin: 0 auto;
-	font-family: 'Fredericka The Great', sans-serif
+}
+
+#hph1, #the-list-page-h1, #the-comments-page-h1, #abouth1, #the_worksh1 {
+	text-align: left;
+	font-size: 1.75em;
+	margin-bottom: 20px;
+}
+
+#hph1 {
+	width: 335px;
+	border-bottom: 2px solid black;
+}
+
+#the-list-page-h1 {
+	width: 238px;
+	border-bottom: 2px solid black;
+}
+
+#the-comments-page-h1 {
+	width: 184px;
+	border-bottom: 2px solid black;
+}
+
+#abouth1 {
+	width: 123px;
+	border-bottom: 2px solid black;
 }
 
 #mainh1 {
 	text-align: left;
-	font-family: 'Fredericka The Great', sans-serif
 }
 
 footer {
@@ -93,25 +162,10 @@ footer {
 	display: inline-block;
 }
 
-#twitter_feeds {
-	width: 100%;
-	display: center;
-	margin: 0 auto;
-	margin-top: 5%;
-}
-
-#twitter_feeds ul {
-	padding: 0;
-}
-
 #comments_bar_name {
 	border-top: 2px solid #BCBCBD;
 	padding-top: .5em;
 	color: black;
-}
-
-#commentsh2, #commentsh4 {
-	font-family: 'Fredericka The Great', sans-serif
 }
 
 #about_container {
@@ -119,28 +173,18 @@ footer {
 }
 
 body nav ul li {
-	font-size: .70em;
-	border: 1px solid #BCBCBD;
-	background-color: #fff;
+	font-size: 0.75em;
 }
 
 a:hover {
 	color: red;
 }
 
-#code_page_container {
-	width: 14em;
-	margin: 0 auto;
-	text-align: center;
-}
-
 #hph4 {
 	text-align: center;
 	font-weight: lighter;
-	font-family: 'Fredericka The Great', sans-serif
 }
 
-
-
-
-
+div#rest_list ul li:nth-child(1) {
+	font-weight: bolder;
+}

@@ -1,25 +1,24 @@
-<br><br><br><br><h2 id="mainh1">dr&b establishment search</h2><br>
-
+<br><br><br>
+<h1 id="the-list-page-h1">the Establishments</h1>
 <%= search_form_for @q do |f| %>
-<h6>(type in the name of a restaurant or bar to view info)</h6>
-	<%= f.label :name_cont, "rest/bar name" %>
-	<%= f.search_field :name_cont  %>
+	<%= f.search_field :name_cont, placeholder: "establishment name"  %>
 	<%= f.submit "search" %>
 	<%= link_to "reset", "/restaurants" %><br>
-	<%= f.label :style_cont, "rest/bar styles" %>
-	<%= f.search_field :style_cont  %>
+	<%= f.search_field :style_cont, placeholder: "food style"  %>
 	<%= f.submit "search" %>
 	<%= link_to "reset", "/restaurants" %>
 <% end %>
 
 <br><br><div id="rest_list">
 	<% @restaurants.each do |rest| %><br><br><br>
-		<strong><%= rest.name %></strong><br>
-		<%= rest.address %><br>
-		<%= rest.city %>, <%= rest.state %><br>
-		<%= rest.zipcode %><br>
-		<%= rest.number %><br>
-		<%= rest.style %><br>
-		<%= link_to "website", rest.site, :target => "_blank" %>
+	<ul>
+		<li><%= rest.name %></li><br>
+		<li><%= rest.address %></li><br>
+		<li><%= rest.city %>, <%= rest.state %></li><br>
+		<li><%= rest.zipcode %></li><br>
+		<li><%= rest.number %></li><br>
+		<li><%= rest.style %></li><br>
+		<li><%= link_to "website", rest.site, :target => "_blank" %></li>
+	</ul>
 	<% end %>
 </div>
