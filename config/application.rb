@@ -2,6 +2,12 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+Dynopoker.configure do |config|
+    config.address = 'http://wakemydyno.com'
+#  config.enable = false # default is true
+#  config.poke_frequency = 123 # default is 1800s (30min)
+end
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
