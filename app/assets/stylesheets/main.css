@@ -183,7 +183,7 @@ div#rest_list ul li:nth-child(1) {
 		-webkit-appearance:textfield;
 		box-sizing: content-box;
 		width: 35%;
-		height: 100px;
+		height: 50px;
 		font-size: 1.95em;
 	}
 }
