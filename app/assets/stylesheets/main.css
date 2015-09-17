@@ -179,7 +179,7 @@ div#rest_list ul li:nth-child(1) {
 		font-size: 2em;
 	}
 
-	.listed-restaurant {
+	.listed-restaurant, .listed-comment {
 		font-size: 3.5em;
 	}
 
