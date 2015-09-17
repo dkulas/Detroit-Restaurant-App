@@ -13,7 +13,7 @@
 <br><br><div id="rest_list">
 	<% @restaurants.each do |rest| %>
 	<ul>
-		<li class="listed-restaurant"><%= rest.name %></li><br>
+		<li class="listed-restaurant rest-name"><%= rest.name %></li><br>
 		<li class="listed-restaurant"><%= rest.address %></li><br>
 		<li class="listed-restaurant"><%= rest.city %>, <%= rest.state %></li><br>
 		<li class="listed-restaurant"><%= rest.zipcode %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= rest.number %></li><br>

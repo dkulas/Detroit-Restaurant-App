@@ -178,6 +178,10 @@ div#rest_list ul li:nth-child(1) {
 	.listed-restaurant {
 		font-size: 2em;
 	}
+
+	.listed-restaurant .rest-name {
+		width: 100px;
+	}
 }
 
 
