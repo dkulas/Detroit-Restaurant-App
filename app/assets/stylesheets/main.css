@@ -176,12 +176,7 @@ div#rest_list ul li:nth-child(1) {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 	.listed-restaurant {
-		font-size: 2em;
-		width: 300px;
-	}
-
-	div#rest_list ul li:nth-child(1) {
-		width: 250px;
+		font-size: 5em;
 	}
 }
 
