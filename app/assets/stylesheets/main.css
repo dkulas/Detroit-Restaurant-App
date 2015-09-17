@@ -89,6 +89,19 @@ a:visited, a:hover, a:active {
 	display: center;
 }
 
+.clear-fix {
+	clear: both;
+	margin-bottom: 50px;
+}
+
+.listed-restaurant {
+	margin-right: 25px;
+}
+
+#rest_list ul {
+	float: left;
+}
+
 #hph3 {
 	text-align: center;
 	margin: 0 auto;

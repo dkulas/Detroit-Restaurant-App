@@ -11,17 +11,16 @@
 <% end %>
 
 <br><br><div id="rest_list">
-	<% @restaurants.each do |rest| %><br><br><br>
+	<% @restaurants.each do |rest| %>
 	<ul>
-		<li><%= rest.name %></li><br>
-		<address>
-		<li><%= rest.address %></li><br>
-		<li><%= rest.city %>, <%= rest.state %></li><br>
-		<li><%= rest.zipcode %></li><br>
-		</address>
-		<li><%= rest.number %></li><br>
-		<li><%= rest.style %></li><br>
-		<li><%= link_to "website", rest.site, :target => "_blank" %></li>
+		<li class="listed-restaurant"><%= rest.name %></li><br>
+		<li class="listed-restaurant"><%= rest.address %></li><br>
+		<li class="listed-restaurant"><%= rest.city %>, <%= rest.state %></li><br>
+		<li class="listed-restaurant"><%= rest.zipcode %></li><br>
+		<li class="listed-restaurant"><%= rest.number %></li><br>
+		<li class="listed-restaurant"><%= rest.style %></li><br>
+		<li class="listed-restaurant"><%= link_to "website", rest.site, :target => "_blank" %></li>
+		<li class="clear-fix listed-restaurant"></li>
 	</ul>
 	<% end %>
 </div>
