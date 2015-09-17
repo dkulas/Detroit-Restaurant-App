@@ -182,10 +182,6 @@ div#rest_list ul li:nth-child(1) {
 	input#q_name_cont, input#q_style_cont {
 		-webkit-appearance:textfield;
 		box-sizing: content-box;
-		width: 35%;
-		height: 50px;
-		font-size: 1.95em;
-		border: 2px solid black;
 	}
 }
 
