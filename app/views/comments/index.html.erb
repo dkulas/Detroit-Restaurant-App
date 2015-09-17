@@ -39,13 +39,14 @@
 <br><div id="comments_container">
 	<ul>
 		<% @comments_all.each do |comment| %>
-		<li id="comments_bar_name" style="font-weight: bolder;"><%= comment.title %></li><br>
-		<li>author:</li>
+		<li class="comments-headings" id="comments_bar_name">establishment:</li>
+		<li><%= comment.title %></li><br>
+		<li class="comments-headings">author:</li>
 		<li><%= comment.author %></li><br>
-		<li>comment:</li>
+		<li class="comments-headings">comment:</li>
 		<li><%= comment.body %></li><br>
-		<li>date:</li>
-		<li><%= comment.created_at %></li><br>
+		<li class="comments-headings">date:</li>
+		<li><%= comment.created_at.strftime("%b %d, %Y") %></li><br>
 		<% end %>
 	</ul>
 </div>

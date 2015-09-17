@@ -14,9 +14,11 @@
 	<% @restaurants.each do |rest| %><br><br><br>
 	<ul>
 		<li><%= rest.name %></li><br>
+		<address>
 		<li><%= rest.address %></li><br>
 		<li><%= rest.city %>, <%= rest.state %></li><br>
 		<li><%= rest.zipcode %></li><br>
+		</address>
 		<li><%= rest.number %></li><br>
 		<li><%= rest.style %></li><br>
 		<li><%= link_to "website", rest.site, :target => "_blank" %></li>
