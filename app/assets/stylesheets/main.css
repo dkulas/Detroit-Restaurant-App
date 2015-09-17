@@ -185,6 +185,7 @@ div#rest_list ul li:nth-child(1) {
 		width: 35%;
 		height: 50px;
 		font-size: 1.95em;
+		border: 2px solid black;
 	}
 }
 
