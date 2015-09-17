@@ -4,7 +4,8 @@
 <%= search_form_for @q do |f| %>
 	<%= f.search_field :title_cont, :placeholder => "establishment name" %>
 	<%= f.submit "search" %>
-	<%= link_to "reset", "/comments" %>
+	<br>
+	<%= link_to "reset search", "/comments", :class => "reset-search" %>
 <% end %>
 
 <div id="comment_form">
