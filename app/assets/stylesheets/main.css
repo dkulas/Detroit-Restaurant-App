@@ -187,6 +187,10 @@ div#rest_list ul li:nth-child(1) {
 		-webkit-appearance:textfield;
 		box-sizing: content-box;
 	}
+
+	#comments_container {
+		width: 90%;
+	}
 }
 
 
