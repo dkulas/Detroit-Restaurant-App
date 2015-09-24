@@ -16,7 +16,8 @@
 		<li class="listed-restaurant rest-name"><%= rest.name %></li><br>
 		<li class="listed-restaurant"><%= rest.address %></li><br>
 		<li class="listed-restaurant"><%= rest.city %>, <%= rest.state %></li><br>
-		<li class="listed-restaurant"><%= rest.zipcode %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= rest.number %></li><br>
+		<li class="listed-restaurant"><%= rest.zipcode %></li><br>
+		<li class="listed-restaurant"><a href="tel:"><%= rest.number %></a></li><br>
 		<li class="listed-restaurant"><%= rest.style %></li><br>
 		<li class="listed-restaurant"><%= link_to "website", rest.site, :target => "_blank" %></li>
 		<li class="clear-fix listed-restaurant"></li>
