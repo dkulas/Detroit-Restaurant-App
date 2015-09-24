@@ -95,11 +95,15 @@ a:visited, a:hover, a:active {
 }
 
 .listed-restaurant {
-	margin-right: 25px;
+	margin-right: 50px;
 }
 
 #rest_list ul {
 	float: left;
+}
+
+div#rest_list {
+	display: block;
 }
 
 #hph3 {
@@ -172,6 +176,16 @@ div#rest_list ul li:nth-child(1) {
 
 .reset-search {
 	font-size: .85em;
+	margin: 5px;
+}
+
+input[type="search"] {
+	font-size: 5em;
+	margin: 5px;
+}
+
+input[value="search"] {
+	font-size: 10em;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
