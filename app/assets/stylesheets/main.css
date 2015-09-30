@@ -113,10 +113,11 @@ div#rest_list {
 
 #hph1, #the-list-page-h1, #the-comments-page-h1, #abouth1, #the_worksh1 {
 	text-align: left;
-	font-size: 1.75em;
+	font-size: 2.5em;
+	color: #fff;
+	background-color: #FB8080;
 	margin-bottom: 20px;
-	padding-bottom: 5px;
-	border-bottom: 1px solid black;
+	padding: 10px;
 }
 
 #mainh1 {
