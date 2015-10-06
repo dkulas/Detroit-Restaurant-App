@@ -104,6 +104,10 @@ div.rest-list-container {
 
 li.listed-restaurant.rest-name {
 	font-weight: bolder;
+	background-color: #353535;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
 }
 
 #rest_list ul {
