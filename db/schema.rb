@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20150224180744) do
   enable_extension "plpgsql"
 
   create_table "comments", force: :cascade do |t|
+    t.integer  "user_id"
     t.string   "title"
     t.string   "body"
     t.string   "author"
@@ -24,14 +25,14 @@ ActiveRecord::Schema.define(version: 20150224180744) do
     t.datetime "updated_at", null: false
   end
 
+  add_index "comments", ["user_id"], name: "index_comments_on_user_id", using: :btree
+
   create_table "restaurants", force: :cascade do |t|
     t.string   "name"
     t.string   "address"
     t.integer  "zipcode"
     t.string   "number"
     t.string   "site"
-    t.integer  "vote_id"
-    t.integer  "comment_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "city"
