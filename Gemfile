@@ -34,7 +34,10 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Pokes your Heroku server so that it doesn't go to sleep
-gem 'dynopoker'
+gem 'dynopoker', '~> 1.3.2'
+# Logger Dependency Gem
+gem 'logger', '~> 1.2.8'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
