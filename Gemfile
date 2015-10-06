@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Ruby Version
+gem 'ruby', '2.0.0'
 # OAuth for FB
 gem 'omniauth-facebook'
 # Allows for CSS to render
