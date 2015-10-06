@@ -3,10 +3,10 @@
 	<h1 id="the-list-page-h1">the List</h1>
 </header>
 <%= search_form_for @q do |f| %>
-	<%= f.search_field :name_cont, placeholder: "name"  %>
+	<%= f.search_field :name_cont, placeholder: "name", :autofocus => true %>
 	<%= f.submit ">", :class => "rest-search" %>
 	<br>
-	<%= f.search_field :style_cont, placeholder: "style"  %>
+	<%= f.search_field :style_cont, placeholder: "style" %>
 	<%= f.submit ">", :class => "rest-search" %>
 	<br>
 	<%= link_to "reset search", "/restaurants", :class => "reset-search" %>
