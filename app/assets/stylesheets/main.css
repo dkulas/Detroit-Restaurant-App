@@ -79,11 +79,7 @@ a:visited, a:hover, a:active {
 }
 
 #rest_list {
-	/*height: 100%;*/
 	width: 80%;
-/*	-webkit-column-count: 2;
-  	-moz-column-count: 2;
-         column-count: 2;*/
 	margin: 0 auto;
 	text-align: center;
 	display: center;
@@ -130,9 +126,6 @@ div#rest_list {
 	margin-top: 2.5%;
 	text-align: center;
 	display: center;
-/*	-webkit-column-count: 2;
-  	-moz-column-count: 2;
-         column-count: 2;*/
 }
 
 #comments_container, ul, li {
@@ -181,7 +174,7 @@ div#rest_list ul li:nth-child(1) {
 }
 
 input[type="search"] {
-	font-size: 1.5em;
+	font-size: 1.15em;
 	margin: 5px;
 }
 
