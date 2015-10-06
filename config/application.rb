@@ -26,7 +26,7 @@ module DscovrApp
 end
 
 Dynopoker.configure do |config|
-    config.address = 'http://wakemydyno.com'
+    config.address = 'https://cryptic-chamber-1899.herokuapp.com/'
 #  config.enable = false # default is true
 #  config.poke_frequency = 123 # default is 1800s (30min)
 end
