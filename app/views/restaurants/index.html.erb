@@ -1,11 +1,11 @@
 <br><br><br>
-<h1 id="the-list-page-h1">the Establishments</h1>
+<h1 id="the-list-page-h1">the List</h1>
 <%= search_form_for @q do |f| %>
-	<%= f.search_field :name_cont, placeholder: "establishment name"  %>
-	<%= f.submit "search" %>
+	<%= f.search_field :name_cont, placeholder: "name"  %>
+	<%= f.submit ">", :class => "rest-search" %>
 	<br>
-	<%= f.search_field :style_cont, placeholder: "food style"  %>
-	<%= f.submit "search" %>
+	<%= f.search_field :style_cont, placeholder: "style"  %>
+	<%= f.submit ">", :class => "rest-search" %>
 	<br>
 	<%= link_to "reset search", "/restaurants", :class => "reset-search" %>
 <% end %>
