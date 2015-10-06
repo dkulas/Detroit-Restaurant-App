@@ -10,17 +10,18 @@
 	<%= link_to "reset search", "/restaurants", :class => "reset-search" %>
 <% end %>
 
-<br><br><div id="rest_list">
-	<% @restaurants.each do |rest| %>
-	<ul>
-		<li class="listed-restaurant rest-name"><%= rest.name %></li><br>
-		<li class="listed-restaurant"><%= rest.address %></li><br>
-		<li class="listed-restaurant"><%= rest.city %>, <%= rest.state %></li><br>
-		<li class="listed-restaurant"><%= rest.zipcode %></li><br>
-		<li class="listed-restaurant"><a href="tel:"><%= rest.number %></a></li><br>
-		<li class="listed-restaurant"><%= rest.style %></li><br>
-		<li class="listed-restaurant"><%= link_to "website", rest.site, :target => "_blank" %></li>
-		<li class="clear-fix listed-restaurant"></li>
-	</ul>
-	<% end %>
+<br><br>
+<div class="rest-list-container">
+	<span id="rest_list">
+		<% @restaurants.each do |rest| %>
+		<ul>
+			<li class="listed-restaurant rest-name"><%= rest.name %></li><br>
+			<li class="listed-restaurant"><%= rest.address %></li><br>
+			<li class="listed-restaurant"><%= rest.city %>, <%= rest.state %> (<%= rest.zipcode %>)</li><br>
+			<li class="listed-restaurant"><a href="tel:"><%= rest.number %></a></li><br>
+			<li class="listed-restaurant"><%= rest.style %> <small>(<%= link_to "website", rest.site, :target => "_blank" %>)</small></li><br>
+			<li class="clear-fix listed-restaurant"></li>
+		</ul>
+		<% end %>
+	</span>
 </div>
