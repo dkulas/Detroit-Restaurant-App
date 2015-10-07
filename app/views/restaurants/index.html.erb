@@ -2,6 +2,13 @@
 <header>
 	<h1 id="the-list-page-h1">the List</h1>
 </header>
+<nav>
+  <ul>
+    <li><%= link_to "about", "/static_pages/about" %></li>
+    <li><%= link_to "the list", "/restaurants" %>&nbsp;&nbsp;&nbsp;</li>
+    <li><%= link_to "home", "/" %>&nbsp;&nbsp;&nbsp;</li>
+  </ul>
+</nav>
 <%= search_form_for @q do |f| %>
 	<%= f.search_field :name_cont, placeholder: "name", :autofocus => true %>
 	<%= f.submit ">", :class => "rest-search" %>

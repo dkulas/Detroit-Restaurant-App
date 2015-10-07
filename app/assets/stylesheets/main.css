@@ -57,10 +57,11 @@ table {
 }
 
 body {
-	margin: 20px 40px 40px 40px;
+	margin: 0 40px 40px 40px;
  	padding: 0;
  	font-family: sans-serif;
  	background-color: #fff;
+ 	line-height: normal;
 }
 
 header {
@@ -68,6 +69,7 @@ header {
 	-webkit-box-shadow: 2px 2px 0px 1px #353535;
   -moz-box-shadow:    2px 2px 0px 1px #353535;
   box-shadow:         2px 2px 0px 1px #353535;
+  background-color: #FB8080;
 }
 
 nav ul li {
@@ -108,9 +110,6 @@ li.listed-restaurant.rest-name {
 	padding: 10px;
 	border-radius: 10px;
 	color: #fff;
-	-webkit-box-shadow: 2px 2px 0px 1px #FB8080;
-  -moz-box-shadow:    2px 2px 0px 1px #FB8080;
-  box-shadow:         2px 2px 0px 1px #FB8080;
 }
 
 #rest_list ul {
@@ -130,41 +129,9 @@ div#rest_list {
 	text-align: left;
 	font-size: 2.5em;
 	color: #fff;
-	background-color: #FB8080;
 	padding: 10px 10px 5px 10px;
 	font-family: 'Alfa Slab One';
 	letter-spacing: 1px;
-}
-
-#mainh1 {
-	text-align: left;
-}
-
-#comments_container {
-	width: 40%;
-	margin: 0 auto;
-	margin-top: 2.5%;
-	text-align: center;
-	display: center;
-}
-
-#comments_container, ul, li {
-	list-style-type: none;
-	text-align: left;
-}
-
-#comments_container ul .comments-headings {
-	font-weight: bolder;
-}
-
-#comment_form ul li {
-	display: inline-block;
-}
-
-#comments_bar_name {
-	border-top: 2px solid #BCBCBD;
-	padding-top: .5em;
-	color: black;
 }
 
 #about_container {
@@ -177,11 +144,6 @@ body nav ul li {
 
 a:hover {
 	color: red;
-}
-
-#hph4 {
-	text-align: center;
-	font-weight: lighter;
 }
 
 div#rest_list ul li:nth-child(1) {
@@ -205,6 +167,27 @@ input.rest-search {
 	background-color: white;
 }
 
+div.content-wrapper {
+	margin: 10px 30px;
+	padding: 10px;
+	width: 100%;
+}
+
+section {
+	height: 225px;
+	width: 20%;
+	background-color: #ccc;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 4.5%;
+}
+
+section img#det1, img#det2, img#det3, img#det4 {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 	body nav ul li {
 		font-size: 2em;
@@ -217,10 +200,6 @@ input.rest-search {
 	input#q_name_cont, input#q_style_cont {
 		-webkit-appearance:textfield;
 		box-sizing: content-box;
-	}
-
-	#comments_container {
-		width: 90%;
 	}
 }
 
