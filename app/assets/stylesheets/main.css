@@ -139,6 +139,15 @@ div#rest_list {
 	letter-spacing: 1px;
 }
 
+#hph2 {
+	text-align: left;
+	font-size: 2em;
+	color: black;
+	padding: 10px 10px 5px 0;
+	font-family: 'Alfa Slab One';
+	letter-spacing: 1px;
+}
+
 h1#hph1 {
 	padding-bottom: 0;
 }
@@ -182,11 +191,14 @@ div.content-wrapper {
 }
 
 section {
-	height: 225px;
 	width: 100%;
 	border-radius: 10px;
 	display: block;
-	float: left;
+}
+
+p#welcome-para {
+	width: 50%;
+	text-align: left;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
