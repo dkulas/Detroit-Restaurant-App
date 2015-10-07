@@ -72,6 +72,11 @@ header {
   background-color: #FB8080;
 }
 
+header small {
+	margin-left: 10px;
+	color: #fff;
+}
+
 nav ul li {
 	display: inline-block;
 	list-style-type: none;
@@ -134,6 +139,10 @@ div#rest_list {
 	letter-spacing: 1px;
 }
 
+h1#hph1 {
+	padding-bottom: 0;
+}
+
 #about_container {
 	margin: 2.5% 10% 2.5% 10%;
 }
@@ -175,7 +184,6 @@ div.content-wrapper {
 section {
 	height: 225px;
 	width: 100%;
-	background-color: #ccc;
 	border-radius: 10px;
 	display: block;
 	float: left;
