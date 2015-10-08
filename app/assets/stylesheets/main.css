@@ -139,11 +139,11 @@ div#rest_list {
 	letter-spacing: 1px;
 }
 
-#hph2 {
-	text-align: left;
+h2#hph2 {
+	text-align: center;
 	font-size: 2em;
 	color: black;
-	padding: 10px 10px 5px 0;
+	padding: 0 10px 5px 0;
 	font-family: 'Alfa Slab One';
 	letter-spacing: 1px;
 }
@@ -197,8 +197,10 @@ section {
 }
 
 p#welcome-para {
-	width: 50%;
+	width: 100%;
 	text-align: left;
+	line-height: 20px;
+	font-size: 0.95em;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
