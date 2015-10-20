@@ -140,16 +140,12 @@ div#rest_list {
 }
 
 h2#hph2 {
-	text-align: center;
+	text-align: left;
 	font-size: 2em;
 	color: black;
-	padding: 0 10px 5px 0;
+	padding: 0 10px 0 0;
 	font-family: 'Alfa Slab One';
 	letter-spacing: 1px;
-}
-
-h1#hph1 {
-	padding-bottom: 0;
 }
 
 #about_container {
@@ -161,7 +157,7 @@ body nav ul li {
 }
 
 a:hover {
-	color: red;
+	color: #FB8080;
 }
 
 div#rest_list ul li:nth-child(1) {
@@ -186,8 +182,7 @@ input.rest-search {
 }
 
 div.content-wrapper {
-	margin: 10px 30px;
-	padding: 10px;
+	padding-left: 10px;
 }
 
 section {
@@ -197,10 +192,8 @@ section {
 }
 
 p#welcome-para {
-	width: 100%;
 	text-align: left;
-	line-height: 20px;
-	font-size: 0.95em;
+	font-size: .85em;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
