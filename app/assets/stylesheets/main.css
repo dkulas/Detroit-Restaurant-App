@@ -64,12 +64,16 @@ body {
  	line-height: normal;
 }
 
-header {
+header.main-header {
 	margin-bottom: 10px;
 	-webkit-box-shadow: 2px 2px 0px 1px #353535;
   -moz-box-shadow:    2px 2px 0px 1px #353535;
   box-shadow:         2px 2px 0px 1px #353535;
   background-color: #FB8080;
+}
+
+h2.hp-section-header {
+
 }
 
 nav {
@@ -101,6 +105,7 @@ section.secondary-section {
 
 section.secondary-section h2, section.main-section h2 {
 	font-size: 1.5em;
+	word-wrap: break-word;
 	font-weight: bold;
 }
 
