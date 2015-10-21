@@ -117,7 +117,28 @@ article.hp-article h3 {
 }
 
 a {
+	color: black;
 	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #FB8080;
+}
+
+a:active {
+	color: #FB8080;
+}
+
+a.kdb-link {
+	color: blue;
 }
 
 div.rest-list-container {
