@@ -232,7 +232,7 @@ input.rest-search {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 	body nav ul li {
-		font-size: 2em;
+		font-size: 1.25em;
 	}
 
 	.listed-restaurant, .listed-comment {
@@ -242,6 +242,25 @@ input.rest-search {
 	input#q_name_cont, input#q_style_cont {
 		-webkit-appearance:textfield;
 		box-sizing: content-box;
+	}
+
+	section.main-section {
+		float: right;
+		width: 100%;
+	}
+
+	section.secondary-section {
+		float: left;
+		width: 100%;
+		height: 200px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+
+	h6.hph6 {
+		font-size: 0.8em;
 	}
 }
 
