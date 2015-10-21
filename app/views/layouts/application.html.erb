@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
   <title>Detroit Food &amp; Drink</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <meta name=“viewport” content=“width=device-width”>
 </head>
@@ -12,5 +12,6 @@
 
 <%= yield %>
 
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>
