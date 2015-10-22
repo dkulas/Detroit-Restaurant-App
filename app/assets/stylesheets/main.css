@@ -262,6 +262,11 @@ input.rest-search {
 	h6.hph6 {
 		font-size: 0.8em;
 	}
+
+	li.listed-restaurant {
+		font-size: 1.75em;
+		width: 100%;
+	}
 }
 
 
