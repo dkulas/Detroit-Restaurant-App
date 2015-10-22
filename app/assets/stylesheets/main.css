@@ -231,6 +231,10 @@ input.rest-search {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	html, body {
+		width: 320px;
+	}
+
 	body nav ul li {
 		font-size: 1.25em;
 	}
@@ -266,6 +270,10 @@ input.rest-search {
 	li.listed-restaurant {
 		font-size: 1.75em;
 		width: 100%;
+	}
+
+	span#rest_list {
+		width: 300px;
 	}
 }
 
