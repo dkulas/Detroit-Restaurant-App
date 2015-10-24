@@ -253,6 +253,13 @@ input.rest-search {
 		overflow-y: scroll;
 	}
 
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
+
 }
 
 /* Portrait */
@@ -273,6 +280,13 @@ input.rest-search {
 		overflow: hidden;
 		overflow-y: scroll;
 	}
+
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
 }
 
 /* Landscape */
@@ -292,6 +306,13 @@ input.rest-search {
 		float: left;
 		overflow: hidden;
 		overflow-y: scroll;
+	}
+
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
 	}
 
 }
@@ -317,6 +338,13 @@ input.rest-search {
 		overflow-y: scroll;
 	}
 
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
+
 }
 
 /* Portrait */
@@ -337,6 +365,13 @@ input.rest-search {
 		overflow: hidden;
 		overflow-y: scroll;
 	}
+
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
 }
 
 /* Landscape */
@@ -356,6 +391,13 @@ input.rest-search {
 		float: left;
 		overflow: hidden;
 		overflow-y: scroll;
+	}
+
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
 	}
 
 }
@@ -381,6 +423,13 @@ input.rest-search {
 		overflow-y: scroll;
 	}
 
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
+
 }
 
 /* Portrait */
@@ -402,6 +451,13 @@ input.rest-search {
 		overflow-y: scroll;
 	}
 
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
+
 }
 
 /* Landscape */
@@ -421,6 +477,13 @@ input.rest-search {
 		float: left;
 		overflow: hidden;
 		overflow-y: scroll;
+	}
+
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
 	}
 
 }
@@ -446,6 +509,13 @@ input.rest-search {
 		overflow-y: scroll;
 	}
 
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
+
 }
 
 /* Portrait */
@@ -467,6 +537,13 @@ input.rest-search {
 		overflow-y: scroll;
 	}
 
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
+	}
+
 }
 
 /* Landscape */
@@ -486,6 +563,13 @@ input.rest-search {
 		float: left;
 		overflow: hidden;
 		overflow-y: scroll;
+	}
+
+	input#q_name_cont, input#q_style_cont {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: cursive;
+		margin: 5px;
 	}
 
 }
