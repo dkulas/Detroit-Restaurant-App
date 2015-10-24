@@ -235,14 +235,50 @@ input.rest-search {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
 
 }
 
@@ -251,14 +287,50 @@ input.rest-search {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
 
 }
 
@@ -267,15 +339,51 @@ input.rest-search {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
 
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
 
 }
 
@@ -284,15 +392,51 @@ input.rest-search {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
 
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
 
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+
+	section.main-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
+
+	section.secondary-section {
+		width: 90%;
+		height: 200px;
+		float: left;
+	}
 
 }
 
