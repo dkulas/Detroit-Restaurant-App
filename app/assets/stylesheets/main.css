@@ -77,6 +77,9 @@ nav {
 nav ul li {
 	display: inline-block;
 	list-style-type: none;
+	font-weight: bold;
+	font-size: 0.9em;
+	letter-spacing: 1px;
 }
 
 section.main-section {
@@ -98,9 +101,10 @@ section.secondary-section {
 }
 
 section.secondary-section h2, section.main-section h2 {
-	font-size: 1.5em;
+	font-size: 1.75em;
 	word-wrap: break-word;
 	font-weight: bold;
+	border-bottom: 2px solid black;
 }
 
 article.hp-article {
@@ -199,10 +203,6 @@ h6.hph6 {
 
 #about_container {
 	margin: 2.5% 10% 2.5% 10%;
-}
-
-body nav ul li {
-	font-size: 0.9em;
 }
 
 a:hover {
